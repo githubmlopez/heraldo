@@ -1,0 +1,20 @@
+{
+  "estatus": 1,
+  "data": [
+    {
+      "encabezado": {
+        "SUBTITULO": "Del 2026/10/01 al 2026/10/15 · Sucursal Monterrey",
+        "F_INFORMACION": "2026-10-15"
+      },
+      "detalle": [
+        { "BREAK_TEXTO": "Vendedor 3: ANA RUIZ", "folio": "F-000123", "fecha": "2026-10-02", "registro": "2026-10-02T09:15:00", "cliente": "Abarrotes La Esperanza", "concepto": "Venta de mostrador", "cantidad": 12, "horas": 1.5, "descuento": 5, "importe": 1250.5 },
+        { "BREAK_TEXTO": "Vendedor 3: ANA RUIZ", "folio": "F-000131", "fecha": "2026-10-05", "registro": "2026-10-05T16:40:12", "cliente": "Comercializadora del Norte, S.A. de C.V.", "concepto": "Pedido especial con entrega a domicilio y armado en sitio", "cantidad": 1500, "horas": 12.25, "descuento": 12.5, "importe": 184320.75 },
+        { "BREAK_TEXTO": "Vendedor 3: ANA RUIZ", "folio": "D-000007", "fecha": "2026-10-07", "registro": "2026-10-07T11:02:59", "cliente": "Abarrotes La Esperanza", "concepto": "Devolución por producto dañado", "cantidad": -2, "importe": -350.1 },
+        { "BREAK_TEXTO": "Vendedor 8: JUAN PÉREZ", "folio": "F-000140", "fecha": "2026-10-10", "registro": "2026-10-10T08:00:00", "cliente": "Ferretería Ñandú", "concepto": "Venta de mostrador", "cantidad": 3, "horas": 0.3, "importe": 0.1 },
+        { "BREAK_TEXTO": "Vendedor 8: JUAN PÉREZ", "folio": "F-000141", "fecha": "2026-10-10", "registro": "2026-10-10T08:05:00", "cliente": "Ferretería Ñandú", "concepto": "Venta de mostrador", "cantidad": 1, "horas": 0.3, "importe": 0.2 }
+      ]
+    }
+  ],
+  "errorUs": null,
+  "errorNeg": null
+}

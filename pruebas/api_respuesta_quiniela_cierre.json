@@ -1,0 +1,1488 @@
+{
+  "estatus": 1,
+  "data": [
+    [
+      {
+        "encabezado": {
+          "TITULO": "Reporte de Quinielas LOS PUBLICISTAS",
+          "SUBTITULO": "Semana 6 NFL · Temporada 2026 · Cerrada: 2026/10/19 12:00:00",
+          "F_INFORMACION": "2026-10-19"
+        },
+        "detalle": [
+          {
+            "BREAK_TEXTO": "Participante 1: MARIO LOPEZ",
+            "partido": 1,
+            "visitante": "Seattle Seahawks",
+            "pronVisitante": "X",
+            "local": "Denver Broncos"
+          },
+          {
+            "BREAK_TEXTO": "Participante 1: MARIO LOPEZ",
+            "partido": 2,
+            "visitante": "Houston Texans",
+            "local": "Jacksonville Jaguars",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 1: MARIO LOPEZ",
+            "partido": 3,
+            "visitante": "Chicago Bears",
+            "pronVisitante": "X",
+            "local": "Atlanta Falcons"
+          },
+          {
+            "BREAK_TEXTO": "Participante 1: MARIO LOPEZ",
+            "partido": 4,
+            "visitante": "Baltimore Ravens",
+            "pronVisitante": "X",
+            "local": "Cleveland Browns"
+          },
+          {
+            "BREAK_TEXTO": "Participante 1: MARIO LOPEZ",
+            "partido": 5,
+            "visitante": "Tennessee  Titans",
+            "local": "Indianapolis Colts",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 1: MARIO LOPEZ",
+            "partido": 6,
+            "visitante": "New York Jets",
+            "local": "New England Patriots",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 1: MARIO LOPEZ",
+            "partido": 7,
+            "visitante": "New Orleans Saints",
+            "local": "New York Giants",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 1: MARIO LOPEZ",
+            "partido": 8,
+            "visitante": "Carolina Panthers",
+            "pronVisitante": "X",
+            "local": "Philadelphia Eagles"
+          },
+          {
+            "BREAK_TEXTO": "Participante 1: MARIO LOPEZ",
+            "partido": 9,
+            "visitante": "Pittsburgh Steelers",
+            "pronVisitante": "X",
+            "local": "Tampa Bay Bucaneers"
+          },
+          {
+            "BREAK_TEXTO": "Participante 1: MARIO LOPEZ",
+            "partido": 10,
+            "visitante": "Arizona Cardinals",
+            "local": "Los Angeles Rams",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 1: MARIO LOPEZ",
+            "partido": 11,
+            "visitante": "Los Angeles Chargers",
+            "local": "Kansas City Chiefs",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 1: MARIO LOPEZ",
+            "partido": 12,
+            "visitante": "Buffalo Bills",
+            "pronVisitante": "X",
+            "local": "Las Vegas Raiders"
+          },
+          {
+            "BREAK_TEXTO": "Participante 1: MARIO LOPEZ",
+            "partido": 13,
+            "visitante": "Dallas Cowboys",
+            "local": "Green Bay Packers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 1: MARIO LOPEZ",
+            "partido": 14,
+            "visitante": "Washington Comanders",
+            "local": "San Francisco 49ers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 2: ALEJANDRO ORTEGA",
+            "partido": 1,
+            "visitante": "Seattle Seahawks",
+            "local": "Denver Broncos",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 2: ALEJANDRO ORTEGA",
+            "partido": 2,
+            "visitante": "Houston Texans",
+            "local": "Jacksonville Jaguars",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 2: ALEJANDRO ORTEGA",
+            "partido": 3,
+            "visitante": "Chicago Bears",
+            "pronVisitante": "X",
+            "local": "Atlanta Falcons"
+          },
+          {
+            "BREAK_TEXTO": "Participante 2: ALEJANDRO ORTEGA",
+            "partido": 4,
+            "visitante": "Baltimore Ravens",
+            "pronVisitante": "X",
+            "local": "Cleveland Browns"
+          },
+          {
+            "BREAK_TEXTO": "Participante 2: ALEJANDRO ORTEGA",
+            "partido": 5,
+            "visitante": "Tennessee  Titans",
+            "local": "Indianapolis Colts",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 2: ALEJANDRO ORTEGA",
+            "partido": 6,
+            "visitante": "New York Jets",
+            "local": "New England Patriots",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 2: ALEJANDRO ORTEGA",
+            "partido": 7,
+            "visitante": "New Orleans Saints",
+            "local": "New York Giants",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 2: ALEJANDRO ORTEGA",
+            "partido": 8,
+            "visitante": "Carolina Panthers",
+            "pronVisitante": "X",
+            "local": "Philadelphia Eagles"
+          },
+          {
+            "BREAK_TEXTO": "Participante 2: ALEJANDRO ORTEGA",
+            "partido": 9,
+            "visitante": "Pittsburgh Steelers",
+            "pronVisitante": "X",
+            "local": "Tampa Bay Bucaneers"
+          },
+          {
+            "BREAK_TEXTO": "Participante 2: ALEJANDRO ORTEGA",
+            "partido": 10,
+            "visitante": "Arizona Cardinals",
+            "local": "Los Angeles Rams",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 2: ALEJANDRO ORTEGA",
+            "partido": 11,
+            "visitante": "Los Angeles Chargers",
+            "local": "Kansas City Chiefs",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 2: ALEJANDRO ORTEGA",
+            "partido": 12,
+            "visitante": "Buffalo Bills",
+            "pronVisitante": "X",
+            "local": "Las Vegas Raiders"
+          },
+          {
+            "BREAK_TEXTO": "Participante 2: ALEJANDRO ORTEGA",
+            "partido": 13,
+            "visitante": "Dallas Cowboys",
+            "local": "Green Bay Packers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 2: ALEJANDRO ORTEGA",
+            "partido": 14,
+            "visitante": "Washington Comanders",
+            "local": "San Francisco 49ers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 3: DUSTIN CRUZ",
+            "partido": 1,
+            "visitante": "Seattle Seahawks",
+            "pronVisitante": "X",
+            "local": "Denver Broncos"
+          },
+          {
+            "BREAK_TEXTO": "Participante 3: DUSTIN CRUZ",
+            "partido": 2,
+            "visitante": "Houston Texans",
+            "local": "Jacksonville Jaguars",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 3: DUSTIN CRUZ",
+            "partido": 3,
+            "visitante": "Chicago Bears",
+            "pronVisitante": "X",
+            "local": "Atlanta Falcons"
+          },
+          {
+            "BREAK_TEXTO": "Participante 3: DUSTIN CRUZ",
+            "partido": 4,
+            "visitante": "Baltimore Ravens",
+            "pronVisitante": "X",
+            "local": "Cleveland Browns"
+          },
+          {
+            "BREAK_TEXTO": "Participante 3: DUSTIN CRUZ",
+            "partido": 5,
+            "visitante": "Tennessee  Titans",
+            "local": "Indianapolis Colts",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 3: DUSTIN CRUZ",
+            "partido": 6,
+            "visitante": "New York Jets",
+            "local": "New England Patriots",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 3: DUSTIN CRUZ",
+            "partido": 7,
+            "visitante": "New Orleans Saints",
+            "pronVisitante": "X",
+            "local": "New York Giants"
+          },
+          {
+            "BREAK_TEXTO": "Participante 3: DUSTIN CRUZ",
+            "partido": 8,
+            "visitante": "Carolina Panthers",
+            "local": "Philadelphia Eagles",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 3: DUSTIN CRUZ",
+            "partido": 9,
+            "visitante": "Pittsburgh Steelers",
+            "pronVisitante": "X",
+            "local": "Tampa Bay Bucaneers"
+          },
+          {
+            "BREAK_TEXTO": "Participante 3: DUSTIN CRUZ",
+            "partido": 10,
+            "visitante": "Arizona Cardinals",
+            "local": "Los Angeles Rams",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 3: DUSTIN CRUZ",
+            "partido": 11,
+            "visitante": "Los Angeles Chargers",
+            "local": "Kansas City Chiefs",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 3: DUSTIN CRUZ",
+            "partido": 12,
+            "visitante": "Buffalo Bills",
+            "pronVisitante": "X",
+            "local": "Las Vegas Raiders"
+          },
+          {
+            "BREAK_TEXTO": "Participante 3: DUSTIN CRUZ",
+            "partido": 13,
+            "visitante": "Dallas Cowboys",
+            "pronVisitante": "X",
+            "local": "Green Bay Packers"
+          },
+          {
+            "BREAK_TEXTO": "Participante 3: DUSTIN CRUZ",
+            "partido": 14,
+            "visitante": "Washington Comanders",
+            "local": "San Francisco 49ers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 4: DIEGO OJEDA",
+            "partido": 1,
+            "visitante": "Seattle Seahawks",
+            "local": "Denver Broncos",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 4: DIEGO OJEDA",
+            "partido": 2,
+            "visitante": "Houston Texans",
+            "pronVisitante": "X",
+            "local": "Jacksonville Jaguars"
+          },
+          {
+            "BREAK_TEXTO": "Participante 4: DIEGO OJEDA",
+            "partido": 3,
+            "visitante": "Chicago Bears",
+            "pronVisitante": "X",
+            "local": "Atlanta Falcons"
+          },
+          {
+            "BREAK_TEXTO": "Participante 4: DIEGO OJEDA",
+            "partido": 4,
+            "visitante": "Baltimore Ravens",
+            "pronVisitante": "X",
+            "local": "Cleveland Browns"
+          },
+          {
+            "BREAK_TEXTO": "Participante 4: DIEGO OJEDA",
+            "partido": 5,
+            "visitante": "Tennessee  Titans",
+            "local": "Indianapolis Colts",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 4: DIEGO OJEDA",
+            "partido": 6,
+            "visitante": "New York Jets",
+            "local": "New England Patriots",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 4: DIEGO OJEDA",
+            "partido": 7,
+            "visitante": "New Orleans Saints",
+            "pronVisitante": "X",
+            "local": "New York Giants"
+          },
+          {
+            "BREAK_TEXTO": "Participante 4: DIEGO OJEDA",
+            "partido": 8,
+            "visitante": "Carolina Panthers",
+            "pronVisitante": "X",
+            "local": "Philadelphia Eagles"
+          },
+          {
+            "BREAK_TEXTO": "Participante 4: DIEGO OJEDA",
+            "partido": 9,
+            "visitante": "Pittsburgh Steelers",
+            "pronVisitante": "X",
+            "local": "Tampa Bay Bucaneers"
+          },
+          {
+            "BREAK_TEXTO": "Participante 4: DIEGO OJEDA",
+            "partido": 10,
+            "visitante": "Arizona Cardinals",
+            "local": "Los Angeles Rams",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 4: DIEGO OJEDA",
+            "partido": 11,
+            "visitante": "Los Angeles Chargers",
+            "local": "Kansas City Chiefs",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 4: DIEGO OJEDA",
+            "partido": 12,
+            "visitante": "Buffalo Bills",
+            "pronVisitante": "X",
+            "local": "Las Vegas Raiders"
+          },
+          {
+            "BREAK_TEXTO": "Participante 4: DIEGO OJEDA",
+            "partido": 13,
+            "visitante": "Dallas Cowboys",
+            "local": "Green Bay Packers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 4: DIEGO OJEDA",
+            "partido": 14,
+            "visitante": "Washington Comanders",
+            "local": "San Francisco 49ers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 5: EFREN AVILA",
+            "partido": 1,
+            "visitante": "Seattle Seahawks",
+            "pronVisitante": "X",
+            "local": "Denver Broncos"
+          },
+          {
+            "BREAK_TEXTO": "Participante 5: EFREN AVILA",
+            "partido": 2,
+            "visitante": "Houston Texans",
+            "local": "Jacksonville Jaguars",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 5: EFREN AVILA",
+            "partido": 3,
+            "visitante": "Chicago Bears",
+            "pronVisitante": "X",
+            "local": "Atlanta Falcons"
+          },
+          {
+            "BREAK_TEXTO": "Participante 5: EFREN AVILA",
+            "partido": 4,
+            "visitante": "Baltimore Ravens",
+            "pronVisitante": "X",
+            "local": "Cleveland Browns"
+          },
+          {
+            "BREAK_TEXTO": "Participante 5: EFREN AVILA",
+            "partido": 5,
+            "visitante": "Tennessee  Titans",
+            "local": "Indianapolis Colts",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 5: EFREN AVILA",
+            "partido": 6,
+            "visitante": "New York Jets",
+            "local": "New England Patriots",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 5: EFREN AVILA",
+            "partido": 7,
+            "visitante": "New Orleans Saints",
+            "local": "New York Giants",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 5: EFREN AVILA",
+            "partido": 8,
+            "visitante": "Carolina Panthers",
+            "local": "Philadelphia Eagles",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 5: EFREN AVILA",
+            "partido": 9,
+            "visitante": "Pittsburgh Steelers",
+            "pronVisitante": "X",
+            "local": "Tampa Bay Bucaneers"
+          },
+          {
+            "BREAK_TEXTO": "Participante 5: EFREN AVILA",
+            "partido": 10,
+            "visitante": "Arizona Cardinals",
+            "local": "Los Angeles Rams",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 5: EFREN AVILA",
+            "partido": 11,
+            "visitante": "Los Angeles Chargers",
+            "local": "Kansas City Chiefs",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 5: EFREN AVILA",
+            "partido": 12,
+            "visitante": "Buffalo Bills",
+            "pronVisitante": "X",
+            "local": "Las Vegas Raiders"
+          },
+          {
+            "BREAK_TEXTO": "Participante 5: EFREN AVILA",
+            "partido": 13,
+            "visitante": "Dallas Cowboys",
+            "pronVisitante": "X",
+            "local": "Green Bay Packers"
+          },
+          {
+            "BREAK_TEXTO": "Participante 5: EFREN AVILA",
+            "partido": 14,
+            "visitante": "Washington Comanders",
+            "local": "San Francisco 49ers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 6: EDGARDO CASTILLO",
+            "partido": 1,
+            "visitante": "Seattle Seahawks",
+            "pronVisitante": "X",
+            "local": "Denver Broncos"
+          },
+          {
+            "BREAK_TEXTO": "Participante 6: EDGARDO CASTILLO",
+            "partido": 2,
+            "visitante": "Houston Texans",
+            "local": "Jacksonville Jaguars",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 6: EDGARDO CASTILLO",
+            "partido": 3,
+            "visitante": "Chicago Bears",
+            "pronVisitante": "X",
+            "local": "Atlanta Falcons"
+          },
+          {
+            "BREAK_TEXTO": "Participante 6: EDGARDO CASTILLO",
+            "partido": 4,
+            "visitante": "Baltimore Ravens",
+            "pronVisitante": "X",
+            "local": "Cleveland Browns"
+          },
+          {
+            "BREAK_TEXTO": "Participante 6: EDGARDO CASTILLO",
+            "partido": 5,
+            "visitante": "Tennessee  Titans",
+            "local": "Indianapolis Colts",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 6: EDGARDO CASTILLO",
+            "partido": 6,
+            "visitante": "New York Jets",
+            "local": "New England Patriots",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 6: EDGARDO CASTILLO",
+            "partido": 7,
+            "visitante": "New Orleans Saints",
+            "pronVisitante": "X",
+            "local": "New York Giants"
+          },
+          {
+            "BREAK_TEXTO": "Participante 6: EDGARDO CASTILLO",
+            "partido": 8,
+            "visitante": "Carolina Panthers",
+            "local": "Philadelphia Eagles",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 6: EDGARDO CASTILLO",
+            "partido": 9,
+            "visitante": "Pittsburgh Steelers",
+            "pronVisitante": "X",
+            "local": "Tampa Bay Bucaneers"
+          },
+          {
+            "BREAK_TEXTO": "Participante 6: EDGARDO CASTILLO",
+            "partido": 10,
+            "visitante": "Arizona Cardinals",
+            "local": "Los Angeles Rams",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 6: EDGARDO CASTILLO",
+            "partido": 11,
+            "visitante": "Los Angeles Chargers",
+            "local": "Kansas City Chiefs",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 6: EDGARDO CASTILLO",
+            "partido": 12,
+            "visitante": "Buffalo Bills",
+            "pronVisitante": "X",
+            "local": "Las Vegas Raiders"
+          },
+          {
+            "BREAK_TEXTO": "Participante 6: EDGARDO CASTILLO",
+            "partido": 13,
+            "visitante": "Dallas Cowboys",
+            "local": "Green Bay Packers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 6: EDGARDO CASTILLO",
+            "partido": 14,
+            "visitante": "Washington Comanders",
+            "local": "San Francisco 49ers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 7: GUSTAVO GARZA",
+            "partido": 1,
+            "visitante": "Seattle Seahawks",
+            "pronVisitante": "X",
+            "local": "Denver Broncos"
+          },
+          {
+            "BREAK_TEXTO": "Participante 7: GUSTAVO GARZA",
+            "partido": 2,
+            "visitante": "Houston Texans",
+            "local": "Jacksonville Jaguars",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 7: GUSTAVO GARZA",
+            "partido": 3,
+            "visitante": "Chicago Bears",
+            "pronVisitante": "X",
+            "local": "Atlanta Falcons"
+          },
+          {
+            "BREAK_TEXTO": "Participante 7: GUSTAVO GARZA",
+            "partido": 4,
+            "visitante": "Baltimore Ravens",
+            "pronVisitante": "X",
+            "local": "Cleveland Browns"
+          },
+          {
+            "BREAK_TEXTO": "Participante 7: GUSTAVO GARZA",
+            "partido": 5,
+            "visitante": "Tennessee  Titans",
+            "local": "Indianapolis Colts",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 7: GUSTAVO GARZA",
+            "partido": 6,
+            "visitante": "New York Jets",
+            "local": "New England Patriots",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 7: GUSTAVO GARZA",
+            "partido": 7,
+            "visitante": "New Orleans Saints",
+            "local": "New York Giants",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 7: GUSTAVO GARZA",
+            "partido": 8,
+            "visitante": "Carolina Panthers",
+            "local": "Philadelphia Eagles",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 7: GUSTAVO GARZA",
+            "partido": 9,
+            "visitante": "Pittsburgh Steelers",
+            "pronVisitante": "X",
+            "local": "Tampa Bay Bucaneers"
+          },
+          {
+            "BREAK_TEXTO": "Participante 7: GUSTAVO GARZA",
+            "partido": 10,
+            "visitante": "Arizona Cardinals",
+            "local": "Los Angeles Rams",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 7: GUSTAVO GARZA",
+            "partido": 11,
+            "visitante": "Los Angeles Chargers",
+            "local": "Kansas City Chiefs",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 7: GUSTAVO GARZA",
+            "partido": 12,
+            "visitante": "Buffalo Bills",
+            "pronVisitante": "X",
+            "local": "Las Vegas Raiders"
+          },
+          {
+            "BREAK_TEXTO": "Participante 7: GUSTAVO GARZA",
+            "partido": 13,
+            "visitante": "Dallas Cowboys",
+            "pronVisitante": "X",
+            "local": "Green Bay Packers"
+          },
+          {
+            "BREAK_TEXTO": "Participante 7: GUSTAVO GARZA",
+            "partido": 14,
+            "visitante": "Washington Comanders",
+            "local": "San Francisco 49ers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 8: GUSTAVO SOLIS",
+            "partido": 1,
+            "visitante": "Seattle Seahawks",
+            "pronVisitante": "X",
+            "local": "Denver Broncos"
+          },
+          {
+            "BREAK_TEXTO": "Participante 8: GUSTAVO SOLIS",
+            "partido": 2,
+            "visitante": "Houston Texans",
+            "local": "Jacksonville Jaguars",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 8: GUSTAVO SOLIS",
+            "partido": 3,
+            "visitante": "Chicago Bears",
+            "pronVisitante": "X",
+            "local": "Atlanta Falcons"
+          },
+          {
+            "BREAK_TEXTO": "Participante 8: GUSTAVO SOLIS",
+            "partido": 4,
+            "visitante": "Baltimore Ravens",
+            "pronVisitante": "X",
+            "local": "Cleveland Browns"
+          },
+          {
+            "BREAK_TEXTO": "Participante 8: GUSTAVO SOLIS",
+            "partido": 5,
+            "visitante": "Tennessee  Titans",
+            "local": "Indianapolis Colts",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 8: GUSTAVO SOLIS",
+            "partido": 6,
+            "visitante": "New York Jets",
+            "local": "New England Patriots",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 8: GUSTAVO SOLIS",
+            "partido": 7,
+            "visitante": "New Orleans Saints",
+            "local": "New York Giants",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 8: GUSTAVO SOLIS",
+            "partido": 8,
+            "visitante": "Carolina Panthers",
+            "local": "Philadelphia Eagles",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 8: GUSTAVO SOLIS",
+            "partido": 9,
+            "visitante": "Pittsburgh Steelers",
+            "pronVisitante": "X",
+            "local": "Tampa Bay Bucaneers"
+          },
+          {
+            "BREAK_TEXTO": "Participante 8: GUSTAVO SOLIS",
+            "partido": 10,
+            "visitante": "Arizona Cardinals",
+            "local": "Los Angeles Rams",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 8: GUSTAVO SOLIS",
+            "partido": 11,
+            "visitante": "Los Angeles Chargers",
+            "local": "Kansas City Chiefs",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 8: GUSTAVO SOLIS",
+            "partido": 12,
+            "visitante": "Buffalo Bills",
+            "pronVisitante": "X",
+            "local": "Las Vegas Raiders"
+          },
+          {
+            "BREAK_TEXTO": "Participante 8: GUSTAVO SOLIS",
+            "partido": 13,
+            "visitante": "Dallas Cowboys",
+            "local": "Green Bay Packers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 8: GUSTAVO SOLIS",
+            "partido": 14,
+            "visitante": "Washington Comanders",
+            "local": "San Francisco 49ers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 9: GERARDO LASCURAIN",
+            "partido": 1,
+            "visitante": "Seattle Seahawks",
+            "local": "Denver Broncos",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 9: GERARDO LASCURAIN",
+            "partido": 2,
+            "visitante": "Houston Texans",
+            "local": "Jacksonville Jaguars",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 9: GERARDO LASCURAIN",
+            "partido": 3,
+            "visitante": "Chicago Bears",
+            "pronVisitante": "X",
+            "local": "Atlanta Falcons"
+          },
+          {
+            "BREAK_TEXTO": "Participante 9: GERARDO LASCURAIN",
+            "partido": 4,
+            "visitante": "Baltimore Ravens",
+            "pronVisitante": "X",
+            "local": "Cleveland Browns"
+          },
+          {
+            "BREAK_TEXTO": "Participante 9: GERARDO LASCURAIN",
+            "partido": 5,
+            "visitante": "Tennessee  Titans",
+            "local": "Indianapolis Colts",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 9: GERARDO LASCURAIN",
+            "partido": 6,
+            "visitante": "New York Jets",
+            "local": "New England Patriots",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 9: GERARDO LASCURAIN",
+            "partido": 7,
+            "visitante": "New Orleans Saints",
+            "local": "New York Giants",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 9: GERARDO LASCURAIN",
+            "partido": 8,
+            "visitante": "Carolina Panthers",
+            "pronVisitante": "X",
+            "local": "Philadelphia Eagles"
+          },
+          {
+            "BREAK_TEXTO": "Participante 9: GERARDO LASCURAIN",
+            "partido": 9,
+            "visitante": "Pittsburgh Steelers",
+            "pronVisitante": "X",
+            "local": "Tampa Bay Bucaneers"
+          },
+          {
+            "BREAK_TEXTO": "Participante 9: GERARDO LASCURAIN",
+            "partido": 10,
+            "visitante": "Arizona Cardinals",
+            "local": "Los Angeles Rams",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 9: GERARDO LASCURAIN",
+            "partido": 11,
+            "visitante": "Los Angeles Chargers",
+            "local": "Kansas City Chiefs",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 9: GERARDO LASCURAIN",
+            "partido": 12,
+            "visitante": "Buffalo Bills",
+            "pronVisitante": "X",
+            "local": "Las Vegas Raiders"
+          },
+          {
+            "BREAK_TEXTO": "Participante 9: GERARDO LASCURAIN",
+            "partido": 13,
+            "visitante": "Dallas Cowboys",
+            "pronVisitante": "X",
+            "local": "Green Bay Packers"
+          },
+          {
+            "BREAK_TEXTO": "Participante 9: GERARDO LASCURAIN",
+            "partido": 14,
+            "visitante": "Washington Comanders",
+            "local": "San Francisco 49ers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 10: HECTOR ALVAREZ",
+            "partido": 1,
+            "visitante": "Seattle Seahawks",
+            "pronVisitante": "X",
+            "local": "Denver Broncos"
+          },
+          {
+            "BREAK_TEXTO": "Participante 10: HECTOR ALVAREZ",
+            "partido": 2,
+            "visitante": "Houston Texans",
+            "local": "Jacksonville Jaguars",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 10: HECTOR ALVAREZ",
+            "partido": 3,
+            "visitante": "Chicago Bears",
+            "local": "Atlanta Falcons",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 10: HECTOR ALVAREZ",
+            "partido": 4,
+            "visitante": "Baltimore Ravens",
+            "local": "Cleveland Browns",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 10: HECTOR ALVAREZ",
+            "partido": 5,
+            "visitante": "Tennessee  Titans",
+            "local": "Indianapolis Colts",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 10: HECTOR ALVAREZ",
+            "partido": 6,
+            "visitante": "New York Jets",
+            "local": "New England Patriots",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 10: HECTOR ALVAREZ",
+            "partido": 7,
+            "visitante": "New Orleans Saints",
+            "local": "New York Giants",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 10: HECTOR ALVAREZ",
+            "partido": 8,
+            "visitante": "Carolina Panthers",
+            "pronVisitante": "X",
+            "local": "Philadelphia Eagles"
+          },
+          {
+            "BREAK_TEXTO": "Participante 10: HECTOR ALVAREZ",
+            "partido": 9,
+            "visitante": "Pittsburgh Steelers",
+            "pronVisitante": "X",
+            "local": "Tampa Bay Bucaneers"
+          },
+          {
+            "BREAK_TEXTO": "Participante 10: HECTOR ALVAREZ",
+            "partido": 10,
+            "visitante": "Arizona Cardinals",
+            "local": "Los Angeles Rams",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 10: HECTOR ALVAREZ",
+            "partido": 11,
+            "visitante": "Los Angeles Chargers",
+            "local": "Kansas City Chiefs",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 10: HECTOR ALVAREZ",
+            "partido": 12,
+            "visitante": "Buffalo Bills",
+            "pronVisitante": "X",
+            "local": "Las Vegas Raiders"
+          },
+          {
+            "BREAK_TEXTO": "Participante 10: HECTOR ALVAREZ",
+            "partido": 13,
+            "visitante": "Dallas Cowboys",
+            "pronVisitante": "X",
+            "local": "Green Bay Packers"
+          },
+          {
+            "BREAK_TEXTO": "Participante 10: HECTOR ALVAREZ",
+            "partido": 14,
+            "visitante": "Washington Comanders",
+            "local": "San Francisco 49ers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 11: HUMBERTO LOPEZ",
+            "partido": 1,
+            "visitante": "Seattle Seahawks",
+            "pronVisitante": "X",
+            "local": "Denver Broncos"
+          },
+          {
+            "BREAK_TEXTO": "Participante 11: HUMBERTO LOPEZ",
+            "partido": 2,
+            "visitante": "Houston Texans",
+            "local": "Jacksonville Jaguars",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 11: HUMBERTO LOPEZ",
+            "partido": 3,
+            "visitante": "Chicago Bears",
+            "pronVisitante": "X",
+            "local": "Atlanta Falcons"
+          },
+          {
+            "BREAK_TEXTO": "Participante 11: HUMBERTO LOPEZ",
+            "partido": 4,
+            "visitante": "Baltimore Ravens",
+            "pronVisitante": "X",
+            "local": "Cleveland Browns"
+          },
+          {
+            "BREAK_TEXTO": "Participante 11: HUMBERTO LOPEZ",
+            "partido": 5,
+            "visitante": "Tennessee  Titans",
+            "local": "Indianapolis Colts",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 11: HUMBERTO LOPEZ",
+            "partido": 6,
+            "visitante": "New York Jets",
+            "local": "New England Patriots",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 11: HUMBERTO LOPEZ",
+            "partido": 7,
+            "visitante": "New Orleans Saints",
+            "local": "New York Giants",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 11: HUMBERTO LOPEZ",
+            "partido": 8,
+            "visitante": "Carolina Panthers",
+            "pronVisitante": "X",
+            "local": "Philadelphia Eagles"
+          },
+          {
+            "BREAK_TEXTO": "Participante 11: HUMBERTO LOPEZ",
+            "partido": 9,
+            "visitante": "Pittsburgh Steelers",
+            "pronVisitante": "X",
+            "local": "Tampa Bay Bucaneers"
+          },
+          {
+            "BREAK_TEXTO": "Participante 11: HUMBERTO LOPEZ",
+            "partido": 10,
+            "visitante": "Arizona Cardinals",
+            "local": "Los Angeles Rams",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 11: HUMBERTO LOPEZ",
+            "partido": 11,
+            "visitante": "Los Angeles Chargers",
+            "local": "Kansas City Chiefs",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 11: HUMBERTO LOPEZ",
+            "partido": 12,
+            "visitante": "Buffalo Bills",
+            "pronVisitante": "X",
+            "local": "Las Vegas Raiders"
+          },
+          {
+            "BREAK_TEXTO": "Participante 11: HUMBERTO LOPEZ",
+            "partido": 13,
+            "visitante": "Dallas Cowboys",
+            "local": "Green Bay Packers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 11: HUMBERTO LOPEZ",
+            "partido": 14,
+            "visitante": "Washington Comanders",
+            "local": "San Francisco 49ers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 12: JONATHAN PARRA",
+            "partido": 1,
+            "visitante": "Seattle Seahawks",
+            "local": "Denver Broncos",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 12: JONATHAN PARRA",
+            "partido": 2,
+            "visitante": "Houston Texans",
+            "local": "Jacksonville Jaguars",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 12: JONATHAN PARRA",
+            "partido": 3,
+            "visitante": "Chicago Bears",
+            "local": "Atlanta Falcons",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 12: JONATHAN PARRA",
+            "partido": 4,
+            "visitante": "Baltimore Ravens",
+            "pronVisitante": "X",
+            "local": "Cleveland Browns"
+          },
+          {
+            "BREAK_TEXTO": "Participante 12: JONATHAN PARRA",
+            "partido": 5,
+            "visitante": "Tennessee  Titans",
+            "local": "Indianapolis Colts",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 12: JONATHAN PARRA",
+            "partido": 6,
+            "visitante": "New York Jets",
+            "pronVisitante": "X",
+            "local": "New England Patriots"
+          },
+          {
+            "BREAK_TEXTO": "Participante 12: JONATHAN PARRA",
+            "partido": 7,
+            "visitante": "New Orleans Saints",
+            "local": "New York Giants",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 12: JONATHAN PARRA",
+            "partido": 8,
+            "visitante": "Carolina Panthers",
+            "local": "Philadelphia Eagles",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 12: JONATHAN PARRA",
+            "partido": 9,
+            "visitante": "Pittsburgh Steelers",
+            "local": "Tampa Bay Bucaneers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 12: JONATHAN PARRA",
+            "partido": 10,
+            "visitante": "Arizona Cardinals",
+            "local": "Los Angeles Rams",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 12: JONATHAN PARRA",
+            "partido": 11,
+            "visitante": "Los Angeles Chargers",
+            "local": "Kansas City Chiefs",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 12: JONATHAN PARRA",
+            "partido": 12,
+            "visitante": "Buffalo Bills",
+            "pronVisitante": "X",
+            "local": "Las Vegas Raiders"
+          },
+          {
+            "BREAK_TEXTO": "Participante 12: JONATHAN PARRA",
+            "partido": 13,
+            "visitante": "Dallas Cowboys",
+            "local": "Green Bay Packers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 12: JONATHAN PARRA",
+            "partido": 14,
+            "visitante": "Washington Comanders",
+            "local": "San Francisco 49ers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 13: LUIS  ALVAREZ",
+            "partido": 1,
+            "visitante": "Seattle Seahawks",
+            "pronVisitante": "X",
+            "local": "Denver Broncos"
+          },
+          {
+            "BREAK_TEXTO": "Participante 13: LUIS  ALVAREZ",
+            "partido": 2,
+            "visitante": "Houston Texans",
+            "local": "Jacksonville Jaguars",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 13: LUIS  ALVAREZ",
+            "partido": 3,
+            "visitante": "Chicago Bears",
+            "local": "Atlanta Falcons",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 13: LUIS  ALVAREZ",
+            "partido": 4,
+            "visitante": "Baltimore Ravens",
+            "pronVisitante": "X",
+            "local": "Cleveland Browns"
+          },
+          {
+            "BREAK_TEXTO": "Participante 13: LUIS  ALVAREZ",
+            "partido": 5,
+            "visitante": "Tennessee  Titans",
+            "local": "Indianapolis Colts",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 13: LUIS  ALVAREZ",
+            "partido": 6,
+            "visitante": "New York Jets",
+            "local": "New England Patriots",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 13: LUIS  ALVAREZ",
+            "partido": 7,
+            "visitante": "New Orleans Saints",
+            "local": "New York Giants",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 13: LUIS  ALVAREZ",
+            "partido": 8,
+            "visitante": "Carolina Panthers",
+            "local": "Philadelphia Eagles",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 13: LUIS  ALVAREZ",
+            "partido": 9,
+            "visitante": "Pittsburgh Steelers",
+            "pronVisitante": "X",
+            "local": "Tampa Bay Bucaneers"
+          },
+          {
+            "BREAK_TEXTO": "Participante 13: LUIS  ALVAREZ",
+            "partido": 10,
+            "visitante": "Arizona Cardinals",
+            "local": "Los Angeles Rams",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 13: LUIS  ALVAREZ",
+            "partido": 11,
+            "visitante": "Los Angeles Chargers",
+            "local": "Kansas City Chiefs",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 13: LUIS  ALVAREZ",
+            "partido": 12,
+            "visitante": "Buffalo Bills",
+            "pronVisitante": "X",
+            "local": "Las Vegas Raiders"
+          },
+          {
+            "BREAK_TEXTO": "Participante 13: LUIS  ALVAREZ",
+            "partido": 13,
+            "visitante": "Dallas Cowboys",
+            "local": "Green Bay Packers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 13: LUIS  ALVAREZ",
+            "partido": 14,
+            "visitante": "Washington Comanders",
+            "local": "San Francisco 49ers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 14: NATALIA CASTILLO",
+            "partido": 1,
+            "visitante": "Seattle Seahawks",
+            "pronVisitante": "X",
+            "local": "Denver Broncos"
+          },
+          {
+            "BREAK_TEXTO": "Participante 14: NATALIA CASTILLO",
+            "partido": 2,
+            "visitante": "Houston Texans",
+            "local": "Jacksonville Jaguars",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 14: NATALIA CASTILLO",
+            "partido": 3,
+            "visitante": "Chicago Bears",
+            "pronVisitante": "X",
+            "local": "Atlanta Falcons"
+          },
+          {
+            "BREAK_TEXTO": "Participante 14: NATALIA CASTILLO",
+            "partido": 4,
+            "visitante": "Baltimore Ravens",
+            "pronVisitante": "X",
+            "local": "Cleveland Browns"
+          },
+          {
+            "BREAK_TEXTO": "Participante 14: NATALIA CASTILLO",
+            "partido": 5,
+            "visitante": "Tennessee  Titans",
+            "local": "Indianapolis Colts",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 14: NATALIA CASTILLO",
+            "partido": 6,
+            "visitante": "New York Jets",
+            "local": "New England Patriots",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 14: NATALIA CASTILLO",
+            "partido": 7,
+            "visitante": "New Orleans Saints",
+            "pronVisitante": "X",
+            "local": "New York Giants"
+          },
+          {
+            "BREAK_TEXTO": "Participante 14: NATALIA CASTILLO",
+            "partido": 8,
+            "visitante": "Carolina Panthers",
+            "pronVisitante": "X",
+            "local": "Philadelphia Eagles"
+          },
+          {
+            "BREAK_TEXTO": "Participante 14: NATALIA CASTILLO",
+            "partido": 9,
+            "visitante": "Pittsburgh Steelers",
+            "pronVisitante": "X",
+            "local": "Tampa Bay Bucaneers"
+          },
+          {
+            "BREAK_TEXTO": "Participante 14: NATALIA CASTILLO",
+            "partido": 10,
+            "visitante": "Arizona Cardinals",
+            "local": "Los Angeles Rams",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 14: NATALIA CASTILLO",
+            "partido": 11,
+            "visitante": "Los Angeles Chargers",
+            "local": "Kansas City Chiefs",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 14: NATALIA CASTILLO",
+            "partido": 12,
+            "visitante": "Buffalo Bills",
+            "pronVisitante": "X",
+            "local": "Las Vegas Raiders"
+          },
+          {
+            "BREAK_TEXTO": "Participante 14: NATALIA CASTILLO",
+            "partido": 13,
+            "visitante": "Dallas Cowboys",
+            "local": "Green Bay Packers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 14: NATALIA CASTILLO",
+            "partido": 14,
+            "visitante": "Washington Comanders",
+            "local": "San Francisco 49ers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 15: PEDRO CANEDO",
+            "partido": 1,
+            "visitante": "Seattle Seahawks",
+            "pronVisitante": "X",
+            "local": "Denver Broncos"
+          },
+          {
+            "BREAK_TEXTO": "Participante 15: PEDRO CANEDO",
+            "partido": 2,
+            "visitante": "Houston Texans",
+            "local": "Jacksonville Jaguars",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 15: PEDRO CANEDO",
+            "partido": 3,
+            "visitante": "Chicago Bears",
+            "pronVisitante": "X",
+            "local": "Atlanta Falcons"
+          },
+          {
+            "BREAK_TEXTO": "Participante 15: PEDRO CANEDO",
+            "partido": 4,
+            "visitante": "Baltimore Ravens",
+            "pronVisitante": "X",
+            "local": "Cleveland Browns"
+          },
+          {
+            "BREAK_TEXTO": "Participante 15: PEDRO CANEDO",
+            "partido": 5,
+            "visitante": "Tennessee  Titans",
+            "local": "Indianapolis Colts",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 15: PEDRO CANEDO",
+            "partido": 6,
+            "visitante": "New York Jets",
+            "local": "New England Patriots",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 15: PEDRO CANEDO",
+            "partido": 7,
+            "visitante": "New Orleans Saints",
+            "local": "New York Giants",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 15: PEDRO CANEDO",
+            "partido": 8,
+            "visitante": "Carolina Panthers",
+            "pronVisitante": "X",
+            "local": "Philadelphia Eagles"
+          },
+          {
+            "BREAK_TEXTO": "Participante 15: PEDRO CANEDO",
+            "partido": 9,
+            "visitante": "Pittsburgh Steelers",
+            "pronVisitante": "X",
+            "local": "Tampa Bay Bucaneers"
+          },
+          {
+            "BREAK_TEXTO": "Participante 15: PEDRO CANEDO",
+            "partido": 10,
+            "visitante": "Arizona Cardinals",
+            "local": "Los Angeles Rams",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 15: PEDRO CANEDO",
+            "partido": 11,
+            "visitante": "Los Angeles Chargers",
+            "local": "Kansas City Chiefs",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 15: PEDRO CANEDO",
+            "partido": 12,
+            "visitante": "Buffalo Bills",
+            "pronVisitante": "X",
+            "local": "Las Vegas Raiders"
+          },
+          {
+            "BREAK_TEXTO": "Participante 15: PEDRO CANEDO",
+            "partido": 13,
+            "visitante": "Dallas Cowboys",
+            "local": "Green Bay Packers",
+            "pronLocal": "X"
+          },
+          {
+            "BREAK_TEXTO": "Participante 15: PEDRO CANEDO",
+            "partido": 14,
+            "visitante": "Washington Comanders",
+            "local": "San Francisco 49ers",
+            "pronLocal": "X"
+          }
+        ]
+      }
+    ]
+  ],
+  "errorUs": null,
+  "errorNeg": null
+}

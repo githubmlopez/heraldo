@@ -1,0 +1,25 @@
+{
+  "definicion": {
+    "version": "1.1",
+    "formato": "horizontal",
+    "encabezado": { "logo": "empresa", "titulo": "Ventas por vendedor (prueba de tipos y totales)" },
+    "columnas": [
+      { "campo": "folio",     "titulo": "Folio",       "tipo": "codigo" },
+      { "campo": "fecha",     "titulo": "Fecha",       "tipo": "fecha" },
+      { "campo": "registro",  "titulo": "Registro",    "tipo": "fechaHora" },
+      { "campo": "cliente",   "titulo": "Cliente",     "tipo": "texto" },
+      { "campo": "concepto",  "titulo": "Concepto",    "tipo": "texto", "peso": 2 },
+      { "campo": "cantidad",  "titulo": "Cantidad",    "tipo": "entero",  "totalizar": true },
+      { "campo": "horas",     "titulo": "Horas",       "tipo": "decimal", "decimales": 1, "totalizar": true },
+      { "campo": "descuento", "titulo": "Desc.",       "tipo": "porcentaje", "decimales": 1 },
+      { "campo": "importe",   "titulo": "Importe neto", "tipo": "moneda", "totalizar": true }
+    ],
+    "break": { "saltoDePagina": false, "total": { "etiqueta": "Total vendedor", "conteo": true } },
+    "totalGeneral": { "etiqueta": "Total general" }
+  },
+  "resumen": {
+    "conteoBloques": "Vendedores",
+    "conteoRegistros": "Operaciones",
+    "nota": "Cifras en pesos mexicanos. Los importes negativos son devoluciones."
+  }
+}

@@ -1,0 +1,10 @@
+# Finales de linea LF en el repositorio y en la copia de trabajo,
+# porque el proyecto se despliega en Docker sobre Linux.
+* text=auto eol=lf
+
+# Archivos binarios: Git no los modifica
+*.ttf  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.pdf  binary

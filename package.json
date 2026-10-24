@@ -1,0 +1,13 @@
+{
+  "name": "heraldo",
+  "version": "0.1.0",
+  "description": "Heraldo: generacion de documentos (PDF) y despacho por disco, correo, Telegram y WhatsApp mediante colas",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "prueba": "node pruebas/probar.js"
+  },
+  "dependencies": {
+    "pdfmake": "0.2.20"
+  }
+}

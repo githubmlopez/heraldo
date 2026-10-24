@@ -1,0 +1,20 @@
+{
+  "definicion": {
+    "version": "1.1",
+    "formato": "vertical",
+    "encabezado": { "logo": "quinielas", "titulo": "Reporte de Quinielas" },
+    "columnas": [
+      { "campo": "partido",       "titulo": "Partido",         "tipo": "entero", "alineacion": "centro" },
+      { "campo": "visitante",     "titulo": "Visitante",       "tipo": "texto" },
+      { "campo": "pronVisitante", "titulo": "Pronóstico",      "tipo": "codigo", "alineacion": "centro" },
+      { "campo": "local",         "titulo": "Local",           "tipo": "texto" },
+      { "campo": "pronLocal",     "titulo": "Pronóstico",      "tipo": "codigo", "alineacion": "centro" },
+      { "campo": "desempate",     "titulo": "Desempate (V/L)", "tipo": "codigo", "alineacion": "centro" }
+    ],
+    "break": { "saltoDePagina": false }
+  },
+  "resumen": {
+    "conteoBloques": "Participantes",
+    "nota": "* Pronóstico asignado por el sistema (el participante no eligió)"
+  }
+}
