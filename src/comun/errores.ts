@@ -5,13 +5,22 @@
 //   validacion : el JSON no cumple el contrato
 //   limite     : se rebaso el limite de filas
 //   diseno     : el contrato es valido pero no cabe en el formato
-class ErrorReporte extends Error {
-  constructor(tipo, mensaje, errores = []) {
+export type TipoError = 'api' | 'negocio' | 'sinDatos' | 'validacion' | 'limite' | 'diseno';
+
+export interface DetalleError {
+  tipo?: TipoError;
+  ruta: string;
+  mensaje: string;
+}
+
+export class ErrorReporte extends Error {
+  readonly tipo: TipoError;
+  readonly errores: DetalleError[];
+
+  constructor(tipo: TipoError, mensaje: string, errores: DetalleError[] = []) {
     super(mensaje);
     this.name = 'ErrorReporte';
     this.tipo = tipo;
     this.errores = errores;
   }
 }
-
-module.exports = { ErrorReporte };

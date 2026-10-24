@@ -1,6 +1,15 @@
-# Heraldo — contexto del proyecto
+﻿# Heraldo — contexto del proyecto
 
 Plataforma para generar documentos (PDF) y despacharlos (disco, correo, Telegram, WhatsApp) mediante colas. Node.js en Docker sobre Linux, detrás de NGINX. Base de datos SQL Server (`NFLQUIN_DESA` en desarrollo). Frontend en React / Next / Tailwind. Idioma del proyecto: español (código, comentarios, mensajes).
+
+## Convenciones de código
+
+- **TypeScript + ESM** (`"type": "module"`), alineado con los demás sistemas del usuario: mismo `tsconfig.json` base (`ES2022`, `ESNext`, `moduleResolution: bundler`, `strict`), compilado con `tsc && tsc-alias` a `dist/`. Node >= 22.
+- Imports relativos y de alias **con extensión `.js`** (`import { x } from './motor.js'`, `from '@comun/errores.js'`).
+- Alias: `@core/*` → `src/*`, `@comun/*` → `src/comun/*`, `@reportes/*` → `src/reportes/*`. Un módulo nuevo de servicio (`colas`, `despachadores`, …) agrega su alias.
+- Heraldo es una aplicación con un solo `src/`; cada servicio es un módulo hermano de `reportes/`.
+- `import.meta.dirname` en lugar de `__dirname`. Tipos para paquetes sin tipos en `src/types/`.
+- ESLint (flat config, `@typescript-eslint` + Prettier) y Prettier (`singleQuote`, `printWidth` 120). Antes de terminar un cambio: `npm run typecheck`, `npm run lint` y `npm run prueba`.
 
 ## Arquitectura del generador de reportes
 
@@ -18,8 +27,8 @@ Lanzador (React)  --parmRemp-->  Motor  --POST /api/Query/Consulta-->  API exist
 - **Consulta de datos**: devuelve dos secciones con `FOR JSON PATH, WITHOUT_ARRAY_WRAPPER`:
   - `encabezado`: objeto con `TITULO`, `SUBTITULO`, `F_INFORMACION` (todo el texto lo arma la consulta desde la base).
   - `detalle`: filas planas; alias = `NOM_CAMPO`; `BREAK_TEXTO` si hay break.
-- **Motor** (`src/reportes/motor.js`): revisa `estatus`/`errorUs`/`errorNeg`, agrupa por `BREAK_TEXTO`, une definición + datos, arma el resumen (conteo de bloques, conteo de registros, nota fija).
-- **Preparador** (`src/reportes/preparador.js`): valida, formatea y calcula totales una sola vez. El PDF y React dibujan el mismo modelo.
+- **Motor** (`src/reportes/motor.ts`): revisa `estatus`/`errorUs`/`errorNeg`, agrupa por `BREAK_TEXTO`, une definición + datos, arma el resumen (conteo de bloques, conteo de registros, nota fija).
+- **Preparador** (`src/reportes/preparador.ts`): valida, formatea y calcula totales una sola vez. El PDF y React dibujan el mismo modelo.
 
 ## Reglas del contrato (v1.1)
 

@@ -3,11 +3,34 @@
   "version": "0.1.0",
   "description": "Heraldo: generacion de documentos (PDF) y despacho por disco, correo, Telegram y WhatsApp mediante colas",
   "private": true,
-  "main": "src/index.js",
-  "scripts": {
-    "prueba": "node pruebas/probar.js"
+  "type": "module",
+  "main": "./dist/index.js",
+  "engines": {
+    "node": ">=22"
   },
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "typecheck": "tsc --noEmit",
+    "prueba": "tsx pruebas/probar.ts",
+    "lint": "eslint .",
+    "formato": "prettier --write ."
+  },
+  "author": "Mario Lopez",
+  "license": "ISC",
   "dependencies": {
     "pdfmake": "0.2.20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "@types/pdfmake": "^0.2.11",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "eslint": "^9.26.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.0",
+    "prettier": "^3.5.3",
+    "tsc-alias": "^1.8.16",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
   }
 }

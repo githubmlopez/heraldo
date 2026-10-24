@@ -1,0 +1,6 @@
+dist/
+salida/
+node_modules/
+package-lock.json
+pruebas/api_respuesta_*.json
+sql/

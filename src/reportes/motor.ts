@@ -1,7 +1,17 @@
 // Motor: une la definicion (tablas RP_) con la respuesta de la API (FC_QUERY)
 // y produce el JSON del contrato v1.1. No formatea ni valida tipos: eso lo hace el preparador.
 
-const { ErrorReporte } = require('../comun/errores');
+import { ErrorReporte, type DetalleError } from '@comun/errores.js';
+import type {
+  Bloque,
+  ConfigResumen,
+  ContenidoDatos,
+  Contrato,
+  DefinicionLeida,
+  EncabezadoContrato,
+  Fila,
+  RespuestaApi,
+} from './tipos.js';
 
 const ALIAS_BREAK = 'BREAK_TEXTO';
 const MENSAJE_SIN_DATOS = 'Sin información para los criterios seleccionados';
@@ -11,9 +21,9 @@ const ENCABEZADO_DATOS = {
   TITULO: 'titulo',
   SUBTITULO: 'subtitulo',
   F_INFORMACION: 'fechaInformacion',
-};
+} as const;
 
-function revisarRespuesta(respuesta) {
+function revisarRespuesta(respuesta: RespuestaApi): void {
   if (respuesta.errorUs) throw new ErrorReporte('api', String(respuesta.errorUs));
   if (respuesta.errorNeg) throw new ErrorReporte('negocio', String(respuesta.errorNeg));
   if (respuesta.estatus === 2) {
@@ -24,36 +34,48 @@ function revisarRespuesta(respuesta) {
 
 // data siempre trae un solo elemento. Si la consulta no usa WITHOUT_ARRAY_WRAPPER
 // en el FOR JSON exterior, llega como data[0][0]; se acepta pero se avisa.
-function extraerContenido(respuesta, advertencias) {
+function extraerContenido(respuesta: RespuestaApi, advertencias: string[]): ContenidoDatos | null {
   if (!respuesta.data || respuesta.data.length === 0) return null;
   let contenido = respuesta.data[0];
   if (Array.isArray(contenido)) {
-    advertencias.push('La respuesta llegó como data[0][0] (arreglo dentro de arreglo). '
-      + 'Agregar WITHOUT_ARRAY_WRAPPER al FOR JSON exterior de la consulta.');
+    advertencias.push(
+      'La respuesta llegó como data[0][0] (arreglo dentro de arreglo). ' +
+        'Agregar WITHOUT_ARRAY_WRAPPER al FOR JSON exterior de la consulta.',
+    );
     contenido = contenido[0] ?? null;
   }
-  return contenido;
+  return (contenido as ContenidoDatos | null) ?? null;
 }
 
-function encabezadoDeDatos(encabezado) {
-  const resultado = {};
+function encabezadoDeDatos(encabezado: ContenidoDatos['encabezado']): Partial<EncabezadoContrato> {
+  const resultado: Partial<EncabezadoContrato> = {};
   if (!encabezado) return resultado;
   for (const [alias, propiedad] of Object.entries(ENCABEZADO_DATOS)) {
-    if (encabezado[alias] !== null && encabezado[alias] !== undefined) resultado[propiedad] = encabezado[alias];
+    const valor = encabezado[alias];
+    if (valor !== null && valor !== undefined) resultado[propiedad] = String(valor);
   }
   return resultado;
 }
 
+function sinBreak(fila: Fila): Fila {
+  const { [ALIAS_BREAK]: _omitido, ...resto } = fila;
+  return resto;
+}
+
 // Filas planas -> bloques. Abre un bloque nuevo cada vez que cambia BREAK_TEXTO.
-function agruparEnBloques(filas, conBreak) {
+function agruparEnBloques(filas: Fila[], conBreak: boolean): Bloque[] {
   if (!conBreak) return [{ detalle: filas.map(sinBreak) }];
-  const errores = [];
-  const bloques = [];
-  let actual = null;
+  const errores: DetalleError[] = [];
+  const bloques: Bloque[] = [];
+  let actual: Bloque | null = null;
   filas.forEach((fila, i) => {
     const texto = fila[ALIAS_BREAK];
     if (typeof texto !== 'string' || texto.trim() === '') {
-      errores.push({ tipo: 'validacion', ruta: `detalle[${i}].${ALIAS_BREAK}`, mensaje: 'El reporte tiene break y la fila no trae el texto del break' });
+      errores.push({
+        tipo: 'validacion',
+        ruta: `detalle[${i}].${ALIAS_BREAK}`,
+        mensaje: 'El reporte tiene break y la fila no trae el texto del break',
+      });
       return;
     }
     if (!actual || actual.texto !== texto) {
@@ -66,13 +88,13 @@ function agruparEnBloques(filas, conBreak) {
   return bloques;
 }
 
-function sinBreak(fila) {
-  const { [ALIAS_BREAK]: _omitido, ...resto } = fila;
-  return resto;
-}
-
-function armarResumen(configuracion, bloques, totalFilas, conBreak) {
-  const lineas = [];
+function armarResumen(
+  configuracion: ConfigResumen | undefined,
+  bloques: Bloque[],
+  totalFilas: number,
+  conBreak: boolean,
+): string[] {
+  const lineas: string[] = [];
   if (!configuracion) return lineas;
   if (configuracion.conteoBloques && conBreak) lineas.push(`${configuracion.conteoBloques}: ${bloques.length}`);
   if (configuracion.conteoRegistros) lineas.push(`${configuracion.conteoRegistros}: ${totalFilas}`);
@@ -80,14 +102,22 @@ function armarResumen(configuracion, bloques, totalFilas, conBreak) {
   return lineas;
 }
 
+export interface OpcionesCombinar {
+  /** Texto del pie de pagina */
+  pie?: string;
+}
+
 /**
- * @param {object} definicionLeida  Resultado de rp_definicion_json.sql: { definicion, resumen, origen }
- * @param {object} respuestaApi     Respuesta de /api/Query/Consulta: { estatus, data, errorUs, errorNeg }
- * @param {object} [opciones]       { pie: texto del pie }
- * @returns {{ contrato: object, advertencias: string[] }}
+ * Une la definicion leida de las tablas RP_ con la respuesta de la API.
+ * @param definicionLeida Resultado de sql/rp_definicion_json.sql
+ * @param respuestaApi    Respuesta de /api/Query/Consulta
  */
-function combinar(definicionLeida, respuestaApi, opciones = {}) {
-  const advertencias = [];
+export function combinar(
+  definicionLeida: DefinicionLeida,
+  respuestaApi: RespuestaApi,
+  opciones: OpcionesCombinar = {},
+): { contrato: Contrato; advertencias: string[] } {
+  const advertencias: string[] = [];
   const { definicion, resumen: configuracionResumen } = definicionLeida;
 
   revisarRespuesta(respuestaApi);
@@ -98,7 +128,7 @@ function combinar(definicionLeida, respuestaApi, opciones = {}) {
   const conBreak = !!definicion.break;
   const bloques = agruparEnBloques(filas, conBreak);
 
-  const contrato = {
+  const contrato: Contrato = {
     version: definicion.version,
     formato: definicion.formato,
     encabezado: { ...definicion.encabezado, ...encabezadoDeDatos(contenido?.encabezado) },
@@ -114,5 +144,3 @@ function combinar(definicionLeida, respuestaApi, opciones = {}) {
 
   return { contrato, advertencias };
 }
-
-module.exports = { combinar };
